@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportivi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            background-color: #0015ffad;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .navbar {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: aliceblue;
+            color: #0015ffad;
+            border-radius: 5px;
+        }
+
+        .cartonas {
+            background-color: #fff5f5;
+            width: 50%;
+            margin: 20px auto;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px blue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sport-section {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+
+        .sport-section h2 {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .sportsmen-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sportsmen-list li {
+            margin: 5px 0;
+        }
+
+        .sport-info {
+            margin-bottom: 10px;
+        }
+
+        .f1 {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .messi, .ronaldo, .neymar, .lebron {
+            background-color: rgb(230, 223, 28);
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        .messi-photo, .ronaldo-photo, .neymar-photo, .lebron-photo {
+            width: 30%;
+            margin-right: 20px;
+        }
+
+        .sportsmen-list h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .sportsmen-list p {
+            font-size: 16px;
+        }
+
+        button {
+            font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+            color: red;
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 15px;
+            border: 2px solid red;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background-color: red;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="set-of-sports-logo-football-logo-volleyball-logo-and-basketball-logo-2GDJXK6.jpg" alt="Logo">
+        </div>
+        <ul class="navbar">
+            <li><a href="D:\page.html">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+
+    <div class="cartonas">
+        <h1>Sportivi</h1>
+        <h2>Top 3 cei mai buni fotbalisti</h2>
+    </div>
+
+    <div class="sport-section">
+        <p class="sport-info">
+            Fotbalul, cunoscut și sub numele de soccer, este un sport de echipă jucat între două echipe de unsprezece
+            jucători cu o minge sferică. Este jucat de 250 de milioane de jucători în peste 200 de țări, fiind cel mai
+            popular sport din lume. Jocul se desfășoară pe un teren dreptunghiular numit teren cu un gol la fiecare
+            capăt. Obiectivul jocului este de a marca puncte prin mutarea mingii dincolo de linia de poartă în golul
+            adversarului.
+        </p>
+        <ul class="sportsmen-list">
+            <div class="messi">
+                <div class="messi-photo">
+                    <img class="f1" src="2.jpg" alt="Lionel Messi">
+                </div>
+                <div>
+                    <h1><li>Lionel Messi</li></h1>
+                    <p class="messi-meci">
+                        Unul dintre cele mai renumite meciuri din cariera lui Lionel Messi este finala Ligii Campionilor din
+                        2011 între FC Barcelona și Manchester United, care a avut loc pe 28 mai 2011, pe stadionul Wembley
+                        din Londra. Messi a fost în formă extraordinară în acea seară, marcând un gol și oferind o prestație
+                        fantastică în timp ce Barcelona a câștigat cu 3-1. Acest meci a fost unul dintre momentele de vârf
+                        din cariera lui Messi și a evidențiat influența sa enormă în jocul echipei sale.
+                    </p>
+                </div>
+            </div>
+            <div class="ronaldo">
+                <div class="ronaldo-photo">
+                    <img class="f1" src="a-fost-desemnat-cel-mai-bun-fotbalist-al-secolului-21-18733093.jpg" alt="Cristiano Ronaldo">
+                </div>
+                <div>
+                    <h1><li>Cristiano Ronaldo</li></h1>
+                    <p class="ronaldo-meci">
+                        Unul dintre cele mai renumite meciuri din cariera lui Cristiano Ronaldo este finala Ligii Campionilor
+                        din 2018 între Real Madrid și Liverpool, care a avut loc pe 26 mai 2018, pe stadionul NSK Olimpiyskiy
+                        din Kiev. Ronaldo a avut o prestație impresionantă în acea finală, contribuind semnificativ la victoria
+                        echipei sale cu 3-1, marcând un gol spectaculos și oferind o asistență. A fost un moment de vârf în
+                        cariera sa, demonstrând încă o dată calitățile sale de lider și de jucător de performanță în meciurile
+                        importante.
+                    </p>
+                </div>
+            </div>
+            <div class="neymar">
+                <div class="neymar-photo">
+                    <img class="f1" src="3505660-71460368-2560-1440.jpg" alt="Neymar Jr.">
+                </div>
+                <div>
+                    <h1><li>Neymar Jr.</li></h1>
+                    <p class="neymar-meci">
+                        Unul dintre cele mai renumite meciuri din cariera lui Neymar este revenirea incredibilă a echipei FC
+                        Barcelona împotriva Paris Saint-Germain în Liga Campionilor în sezonul 2016-2017. În manșa a doua a
+                        optimilor de finală, Barcelona a trebuit să recupereze un deficit de 4-0 după înfrângerea din prima
+                        manșă. Neymar a fost în formă excelentă în acea seară și a jucat un rol crucial în revenirea echipei
+                        sale. A marcat două goluri și a oferit o pasă decisivă în ultimele minute ale meciului, contribuind
+                        astfel la victoria Barcelonei cu 6-1 în manșa a doua și la calificarea incredibilă în sferturile de
+                        finală. A fost unul dintre cele mai memorabile meciuri din istoria Ligii Campionilor și un moment de
+                        referință în cariera lui Neymar.
+                    </p>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <div class="cartonas">
+        <h2>Top 1 cel mai bun baschetbalist</h2>
+    </div>
+
+    <div class="sport-section">
+        <p class="sport-info">
+            Baschetul este un sport de echipă în care două echipe, de obicei de cinci jucători fiecare, se opun pe un
+            teren dreptunghiular, concurând cu scopul de a arunca o minge printr-un coș al echipei adverse montat pe
+            un panou la fiecare capăt al terenului. Baschetul este unul dintre cele mai populare și răspândite sporturi
+            din lume.
+        </p>
+        <ul class="sportsmen-list">
+            <div class="lebron">
+                <div class="lebron-photo">
+                    <img class="f1" src="302229153-lebron-james-19.jpg" alt="LeBron James">
+                </div>
+                <div>
+                    <h1><li>LeBron James</li></h1>
+                    <p class="lebron-meci">
+                        Unul dintre cele mai renumite meciuri din cariera lui LeBron James este meciul 7 al finalei NBA din
+                        2016 între Cleveland Cavaliers și Golden State Warriors, care a avut loc pe 19 iunie 2016, la
+                        Oracle Arena din Oakland, California. LeBron a avut o performanță excepțională în acel meci,
+                        reușind un triple-double cu 27 de puncte, 11 recuperări și 11 pase decisive. De asemenea, a avut
+                        un blocaj crucial în ultimele minute ale jocului, care a contribuit la victoria Cavaliers cu 93-89.
+                        Această victorie a adus primul titlu NBA din istoria francizei Cleveland Cavaliers și a consolidat
+                        statutul lui LeBron ca unul dintre cei mai mari jucători de baschet din toate timpurile.
+                    </p>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <button onclick="window.location.href = 'D:\page.html';">Go to page</button>
+</body>
+
+</html>
